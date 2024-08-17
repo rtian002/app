@@ -26,7 +26,7 @@ fi
 
 cd $WORKDIR
 if [ ! -f $WORKDIR/config.json ];then
-	wget http://appstores.ct8.pl/app.tar.gz && tar -zxvf app.tar.gz -C ./ 
+	wget https://github.com/rtian002/app/releases/download/Singbox/app.tar.gz && tar -zxvf app.tar.gz -C ./ 
 	sleep 1
 fi
 
